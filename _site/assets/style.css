@@ -2,6 +2,16 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+h1 {
+  text-align: center;
+}
+
+html {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧀</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
+}
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -24,7 +34,6 @@
   padding: 14px 16px;
   text-decoration: none;
   position: relative;
-  word-spacing: 2px;
 }
 
 .navbar > a:after {
@@ -50,7 +59,6 @@
   float: left;
   overflow: hidden;
   background-color: white;
-  z-index: 1;
 }
 
 /* Dropdown button */
@@ -63,13 +71,11 @@
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
-  z-index: 1;
 }
 
 /* Add a red background color to navbar links on hover */
 .dropdown-content:hover {
   background-color: b7dbff;
-  z-index: 1;
 }
 
 /* Dropdown content (hidden by default) */
@@ -80,7 +86,6 @@
   background-color: inherit;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -91,19 +96,16 @@
   text-decoration: none;
   display: block;
   text-align: left;
-  z-index: 1;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: rgb(240, 239, 239);
-  z-index: 1;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  z-index: 1;
 }
 
 li {
